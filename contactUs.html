@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio 1 - Contact Us</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style2.css" />
     <script src="script.js" type="text/javascript" defer></script>
   </head>
 
@@ -25,12 +25,14 @@
     <main>
       <div class="nav-page">
         <a href="">Home</a>
-        <p> > </p>
-        <a href="">Contact us</a>
+        <p class="seta-nav">></p>
+        <a class="contact-link" href="">Contact us</a>
       </div>
-      <div>
-        <p>Lorem Ipsum is simply dummy text of the printing and.</p>
-        <p>
+      <div class="texto-main">
+        <p class="titulo-main">
+          Lorem Ipsum is simply dummy text of the printing and.
+        </p>
+        <p class="subtitulo-main">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
         </p>
@@ -40,8 +42,8 @@
         <img class="img-map" src="img/map.png" alt="Mapa global" />
       </div>
 
-      <div>
-        <div>
+      <div class="info">
+        <div class="followUs">
           <p>Follow us</p>
           <div class="midias">
             <a href="https://www.facebook.com/pagina.inicial.75/?locale=pt_BR">
@@ -59,22 +61,22 @@
               <img src="img/linkedin-black.svg" alt="" />
             </a>
           </div>
-      </div>
         </div>
 
-        <vl></vl>
+        <vl class="linha-vertical"></vl>
 
-        <div>
-            <img src="img/phone.svg" alt="" />
+        <div class="phone">
+          <img class="icone-phone" src="img/phone.svg" alt="" />
           <p>+94 4444 5555 6</p>
         </div>
 
-        <vl></vl>
+        <vl class="linha-vertical"></vl>
 
-        <div>
-            <img src="img/gps.svg" alt="" />
+        <div class="location">
+          <img class="icone-gps" src="img/gps.svg" alt="" />
           <p>but also the leap into electronic typesetting</p>
         </div>
+      </div>
     </main>
 
     <section>
@@ -86,9 +88,9 @@
         <p>First Name</p>
         <input type="text" id="firstName" />
         <p>Last Name</p>
-        <input type="text" id="lastName"/>
+        <input type="text" id="lastName" />
         <p>Email Address</p>
-        <input type="email" id="emailForm"/>
+        <input type="email" id="emailForm" />
         <p>Message</p>
         <textarea id="message"></textarea>
         <button type="submit" onclick="newsletter()">Get in touch</button>
