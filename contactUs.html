@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio 1 - Contact Us</title>
     <link rel="stylesheet" href="" />
+    <script src="script.js" type="text/javascript" defer></script>
   </head>
 
   <body>
@@ -21,11 +22,12 @@
       </nav>
     </header>
 
-    <section>
-      <div>
+    <main>
+      <div class="nav-page">
         <a href="">Home</a>
-        <p>></p>
+        <p> > </p>
         <a href="">Contact us</a>
+      </div>
       <div>
         <p>Lorem Ipsum is simply dummy text of the printing and.</p>
         <p>
@@ -33,8 +35,9 @@
           industry.
         </p>
       </div>
-      <div>
-        <img class="img_map" src="img/map.png" alt="Mapa global" />
+
+      <div class="img-mapa">
+        <img class="img-map" src="img/map.png" alt="Mapa global" />
       </div>
 
       <div>
@@ -72,8 +75,7 @@
             <img src="img/gps.svg" alt="" />
           <p>but also the leap into electronic typesetting</p>
         </div>
-      </div>
-    </section>
+    </main>
 
     <section>
       <div>
@@ -82,14 +84,14 @@
       </div>
       <form>
         <p>First Name</p>
-        <input type="text" />
+        <input type="text" id="firstName" />
         <p>Last Name</p>
-        <input type="text" />
+        <input type="text" id="lastName"/>
         <p>Email Address</p>
-        <input type="email" />
+        <input type="email" id="emailForm"/>
         <p>Message</p>
         <textarea id="message"></textarea>
-        <button type="submit">Get in touch</button>
+        <button type="submit" onclick="newsletter()">Get in touch</button>
       </form>
     </section>
 
