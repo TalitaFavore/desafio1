@@ -39,26 +39,25 @@
       </div>
 
       <div class="img-mapa">
-        <img class="img-map" src="img/map.png" alt="Mapa global" />
+        <img class="img-map" src="img/map.png" alt="Mapa global"/>
       </div>
 
-      <div class="info">
+      <div class="info-main">
         <div class="followUs">
           <p>Follow us</p>
           <div class="midias">
             <a href="https://www.facebook.com/pagina.inicial.75/?locale=pt_BR">
-              <img src="img/facebook-black.svg" alt="" />
+              <img src="img/facebook-black.svg" alt="Ícone com logo do facebook"/>
             </a>
             <a href="https://about.instagram.com/pt-br">
-              <img src="img/instagram-black.svg" alt="" />
+              <img src="img/instagram-black.svg" alt="Ícone com logo do instagram"/>
             </a>
             <a
-              href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
-            >
-              <img src="img/twitter-black.svg" alt="" />
+              href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D">
+              <img src="img/twitter-black.svg" alt="Ícone com logo do twitter"/>
             </a>
             <a href="https://www.linkedin.com/in/talita-favore/">
-              <img src="img/linkedin-black.svg" alt="" />
+              <img src="img/linkedin-black.svg" alt="Ícone com logo do linkedin"/>
             </a>
           </div>
         </div>
@@ -66,64 +65,82 @@
         <vl class="linha-vertical"></vl>
 
         <div class="phone">
-          <img class="icone-phone" src="img/phone.svg" alt="" />
+          <img class="icone-phone" src="img/phone.svg" alt="Ícone de um telefone analógico com com" />
           <p>+94 4444 5555 6</p>
         </div>
 
         <vl class="linha-vertical"></vl>
 
         <div class="location">
-          <img class="icone-gps" src="img/gps.svg" alt="" />
+          <img class="icone-gps" src="img/gps.svg" alt="Ícone de um alfinete de localização de um GPS"/>
           <p>but also the leap into electronic typesetting</p>
         </div>
       </div>
     </main>
 
-    <section>
-      <div>
-        <p>Say hello</p>
-        <p>Lorem Ipsum is simply dummy text of the printing.</p>
-      </div>
-      <form>
-        <p>First Name</p>
-        <input type="text" id="firstName" />
-        <p>Last Name</p>
-        <input type="text" id="lastName" />
-        <p>Email Address</p>
-        <input type="email" id="emailForm" />
-        <p>Message</p>
-        <textarea id="message"></textarea>
-        <button type="submit" onclick="newsletter()">Get in touch</button>
-      </form>
-    </section>
-
-    <section>
-      <div class="parte-quatro">
-        <div>
-          <p class="titulo_parte_quatro">Lorem Ipsum</p>
-          <p class="texto_parte_quatro">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+    <section class="parte-dois">
+      <div class="conteudo-parte-dois">
+        <div class="texto-form">
+          <p class="titulo-form">Say hello</p>
+          <p class="subtitulo-form">
+            Lorem Ipsum is simply dummy text of the printing.
           </p>
         </div>
-
-        <div class="stay-loop">
-          <p class="stay-loop-titulo">Stay in the loop</p>
-          <p class="stay-loop-texto">
-            Subscribe to receive the latest news and updates about TDA. We
-            promise not to spam you!
-          </p>
-
-          <div>
-            <input type="text" placeholder="Enter email address" name="nome" />
-            <a href="">Continue</a>
+        <form>
+          <div class="first-name">
+            <p class="nome-campos">First Name</p>
+            <input type="text" id="firstName" class="firstName-input"/>
           </div>
+
+          <div class="last-name">
+            <p class="nome-campos">Last Name</p>
+            <input type="text" id="lastName" class="lastName-input"/>
+          </div>
+
+          <div class="email">
+            <p class="nome-campos">Email Address</p>
+            <input type="email" id="emailForm" class="email-input"/>
+          </div>
+
+          <div class="message">
+            <p class="nome-campos">Message</p>
+            <textarea id="message" class="message-input"></textarea>
+          </div>
+
+          <button type="submit" class="botao-form" onclick="newsletter()">
+            Get in touch
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="parte-tres">
+      <div class="texto-parte-tres">
+        <p class="titulo-parte-tres">Lorem Ipsum</p>
+        <p class="subtitulo-parte-tres">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+      </div>
+
+      <div class="stay-loop">
+        <p class="stay-loop-titulo">Stay in the loop</p>
+        <p class="stay-loop-texto">
+          Subscribe to receive the latest news and updates about TDA. We promise
+          not to spam you!
+        </p>
+
+        <div class="input-button">
+          <input type="text" class="input-stay-loop" placeholder="Enter email address"/>
+          <button type="submit" class="botao-stay-loop" onclick="newsletter()">
+            Continue
+          </button>
         </div>
       </div>
     </section>
 
     <footer>
-      <div class="info">
+      <div class="info-footer">
         <div class="coluna1">
           <p class="titulo-footer">LOGO</p>
           <p class="texto-footer">
@@ -150,29 +167,29 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
+
           <p class="num-footer">+908 89097 890</p>
         </div>
 
         <div class="midias">
           <a href="https://www.facebook.com/pagina.inicial.75/?locale=pt_BR">
-            <img src="img/facebook.svg" alt="" />
+            <img src="img/facebook.svg" alt="Ícone com logo do facebook"/>
           </a>
           <a href="https://about.instagram.com/pt-br">
-            <img src="img/instagram.svg" alt="" />
+            <img src="img/instagram.svg" alt="Ícone com logo do instagram"/>
           </a>
           <a
-            href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
-          >
-            <img src="img/twitter.svg" alt="" />
+            href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D">
+            <img src="img/twitter.svg" alt="Ícone com logo do twitter"/>
           </a>
           <a href="https://www.linkedin.com/in/talita-favore/">
-            <img src="img/linkedin.svg" alt="" />
+            <img src="img/linkedin.svg" alt="Ícone com logo do linkedin"/>
           </a>
         </div>
       </div>
 
-      <div class="linha-branca">
-        <hr />
+      <div class="linha-horizontal">
+        <hr/>
         <div class="copyright">
           <p class="copyright-text">
             Copyright ® 2021 prodesigner All rights Reserved
