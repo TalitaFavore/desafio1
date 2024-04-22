@@ -93,6 +93,10 @@ body {
     font-size: 13px;
 }
 
+.contato:hover {
+    background-color: #f7b268;
+}
+
 main {
     display: flex;
     width: 100%;
@@ -107,6 +111,10 @@ main {
     margin-top: 150px;
     text-align: center;
     justify-content: center;
+}
+
+.nav-page a:hover{
+    color: #f7b268;
 }
 
 .seta-nav {
@@ -304,6 +312,11 @@ form {
     border: none;
 }
 
+.botao-form:hover {
+    background-color: #f7b268;
+    cursor: pointer;
+}
+
 .mensagem-erro {
     color: #7f0000;
     font-family: "Poppins-Regular";
@@ -405,6 +418,11 @@ form {
     border: none;
 }
 
+.botao-stay-loop:hover {
+    background-color: #f7b268;
+    cursor: pointer;
+}
+
 footer {
     background-color: #070707;
     width: 100%;
@@ -458,6 +476,10 @@ footer {
     font-family: "Poppins-Regular";
     font-size: 16px;
     list-style-type: none;
+}
+
+.lista-footer a:hover {
+    color: #f7b268;
 }
 
 .coluna3 {

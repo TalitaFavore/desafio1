@@ -23,7 +23,6 @@
     src: url("fonts/poppins/Poppins-SemiBold.ttf");
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -92,6 +91,10 @@ body {
     font-size: 13px;
 }
 
+.contato:hover {
+    background-color: #f7b268;
+}
+
 main {
     display: flex;
     flex-wrap: row wrap;
@@ -148,6 +151,10 @@ h1 {
     font-size: 16px;
 }
 
+.detalhes:hover {
+    background-color: #f7b268;
+}
+
 .img-principal {
     width: 50%;
 }
@@ -185,6 +192,10 @@ h2 {
     padding: 15px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.seeall-button:hover {
+    background-color: rgba(255, 255, 255, 0.50);
 }
 
 .jogos {
@@ -497,6 +508,11 @@ h2 {
     border: none;
 }
 
+.botao-stay-loop:hover {
+    background-color: #f7b268;
+    cursor: pointer;
+}
+
 footer {
     background-color: #070707;
     width: 100%;
@@ -508,7 +524,6 @@ footer {
     align-items: baseline;
     padding-top: 20px;
 }
-
 
 .info-footer {
     display: flex;
@@ -551,6 +566,10 @@ footer {
     font-family: "Poppins-Regular";
     font-size: 16px;
     list-style-type: none;
+}
+
+.lista-footer a:hover {
+    color: #f7b268;
 }
 
 .coluna3 {
