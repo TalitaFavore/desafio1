@@ -78,15 +78,19 @@ body {
     list-style: none;
 }
 
-a {
-    font-family: sans-serif;
-    text-decoration: none;
-}
-
 .nav-list a {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.contato {
+    background-color: #FA9021;
+    border-radius: 6px;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
 }
 
 main {
