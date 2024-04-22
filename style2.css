@@ -294,9 +294,10 @@ form {
     font-family: "Poppins-Regular";
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
-    align-self: end;
+    align-items: center;
+    margin-left: auto;
     margin-top: 50px;
-    border: 0.5px solid #CECECE;
+    border: none;
 }
 
 .mensagem-erro {

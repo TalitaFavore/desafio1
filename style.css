@@ -101,7 +101,6 @@ main {
 
 
 .texto_principal {
-   
     padding: 50px;
     padding-right: 10px;
     width: 50%;
@@ -138,7 +137,7 @@ h1 {
     color: #FFF;
     font-size: 16px;
     width: 80%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .logo {
@@ -149,6 +148,7 @@ h1 {
 }
 
 .contato {
+    
     background-color: #FA9021;
     border-radius: 6px;
     padding: 4px;
@@ -158,13 +158,13 @@ h1 {
 }
 
 .detalhes {
-    background-color: #FA8305;
+    background:  linear-gradient( to top right, #FA8305, #FB9E3C);
     border-radius: 40px;
-    padding: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Poppins-Medium";
     font-size: 16px;
-    margin-top: 50px;
 }
 
 
@@ -172,6 +172,8 @@ h1 {
 .imgs_jogos {
     flex-flow: row wrap;
     width: 100%;
+    margin-left: 110px;
+    margin-right: 110px;
 }
 
 h2 {
@@ -233,6 +235,8 @@ h2 {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
+    margin-left: 110px;
+    margin-right: 110px;
 }
 
 .texto_meio {
@@ -270,7 +274,7 @@ h2 {
 }
 
 .img_miles {
-    max-width: 80%;
+    max-width: 100%;
     justify-content: center;
     margin: auto;
     margin-bottom: 156px;
@@ -449,12 +453,15 @@ h2 {
     background-color: #1C140F;
     border-radius: 15px;
     display: flex;
-    padding: 20px;
-    padding-left: 50px;
-    width: 90%;
     flex-flow: row wrap;
     margin: auto;
     align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 90%;
     min-height: 190px;
 }
 
