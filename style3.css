@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("fonts/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("fonts/poppins/Poppins-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+body {
+    background-image: linear-gradient( to bottom right,  #39289F, #36465D );
+    display: flex;
+    flex-flow: column wrap;
+    letter-spacing: .1rem;
+    width: 100%;
+}
+
+.principal {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 65px;
+    padding-top: 17px;
+    padding-bottom: 26px;
+    padding: 5px;
+    font-family: "Poppins-Bold";
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #FA9021;;
+}
+
+.texto-erro {
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 40%;
+    margin-left: 30px;
+}
+
+.voltar-inicial {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.voltar-inicial p, a {
+    padding: 5px;
+    font-size: 30px;
+}
+
+.img {
+    width: 42%;
+}
+
+.img-triste {
+    width: 100%;
+}
