@@ -30,7 +30,6 @@
     box-sizing: border-box;
     text-decoration: none;
     color: #FFF;
-
 }
 
 body {
@@ -41,13 +40,8 @@ body {
     letter-spacing: .1rem;
 }
 
-a {
-    font-family: sans-serif;
-    text-decoration: none;
-}
-
 .header {
-    
+
     background-color: transparent;
     margin: 0;
     padding: 0;
@@ -71,7 +65,12 @@ a {
     padding-right: 30px;
 }
 
-
+.logo {
+    font-size: 29px;
+    font-weight: bolder;
+    display: inline-block;
+    font-family: "Poppins-ExtraBold";
+}
 
 .nav-list {
     display: flex;
@@ -83,6 +82,15 @@ a {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.contato {
+    background-color: #FA9021;
+    border-radius: 6px;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
 }
 
 main {
@@ -99,19 +107,10 @@ main {
     align-items: center;
 }
 
-
-.texto_principal {
+.texto-principal {
     padding: 50px;
     padding-right: 10px;
     width: 50%;
-}
-
-.img-principal {
-    width: 50%;
-}
-
-.img_joystick {
-    max-width: 100%;
 }
 
 h3 {
@@ -133,32 +132,15 @@ h1 {
     width: 80%;
 }
 
-.paragrafo_principal {
+.paragrafo-principal {
     color: #FFF;
     font-size: 16px;
     width: 80%;
     margin-bottom: 70px;
 }
 
-.logo {
-    font-size: 29px;
-    font-weight: bolder;
-    display: inline-block;
-    font-family: "Poppins-ExtraBold";
-}
-
-.contato {
-    
-    background-color: #FA9021;
-    border-radius: 6px;
-    padding: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 13px;
-}
-
 .detalhes {
-    background:  linear-gradient( to top right, #FA8305, #FB9E3C);
+    background: linear-gradient(to top right, #FA8305, #FB9E3C);
     border-radius: 40px;
     padding: 20px;
     padding-left: 25px;
@@ -167,17 +149,19 @@ h1 {
     font-size: 16px;
 }
 
+.img-principal {
+    width: 50%;
+}
 
+.img-joystick {
+    max-width: 100%;
+}
 
-.imgs_jogos {
+.imgs-jogos {
     flex-flow: row wrap;
     width: 100%;
     margin-left: 110px;
     margin-right: 110px;
-}
-
-h2 {
-    font-size: 31px;
 }
 
 .trending {
@@ -192,7 +176,11 @@ h2 {
     padding-right: 50px;
 }
 
-.seeall_button {
+h2 {
+    font-size: 31px;
+}
+
+.seeall-button {
     background-color: rgba(255, 255, 255, 0.11);
     border-radius: 10px;
     padding: 15px;
@@ -209,6 +197,10 @@ h2 {
     margin-top: 57px;
 }
 
+.img-trending {
+    width: 100%;
+}
+
 .followers {
     display: flex;
     justify-content: center;
@@ -219,19 +211,7 @@ h2 {
     margin-right: 10px;
 }
 
-
-.img_trending {
-    width: 100%;
-}
-
-.parte_dois {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.parte_dois {
+.parte-dois {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -239,7 +219,7 @@ h2 {
     margin-right: 110px;
 }
 
-.texto_meio {
+.texto-meio {
     margin: auto;
     margin-top: 200px;
     margin-bottom: 67px;
@@ -249,14 +229,14 @@ h2 {
     text-align: center;
 }
 
-.conjunto_texto {
+.conjunto-texto {
     display: flex;
     flex-flow: column wrap;
     padding-left: 70px;
     padding-bottom: 46px;
 }
 
-.titulo_parte_dois {
+.titulo-parte-dois {
     font-size: 30px;
     font-family: "Poppins-SemiBold";
     width: 50%;
@@ -265,7 +245,7 @@ h2 {
 
 }
 
-.texto_parte_dois {
+.texto-parte-dois {
     font-size: 16px;
     font-family: "Poppins-Regular";
     width: 50%;
@@ -273,14 +253,14 @@ h2 {
 
 }
 
-.img_miles {
+.img-miles {
     max-width: 100%;
     justify-content: center;
     margin: auto;
     margin-bottom: 156px;
 }
 
-.parte_tres {
+.parte-tres {
     background-image: url("img/img_fundo.png");
     width: 100%;
     display: flex;
@@ -288,7 +268,7 @@ h2 {
     height: 100%;
 }
 
-.titulo_parte_tres {
+.titulo-parte-tres {
     font-size: 35px;
     padding: 80px;
     padding-bottom: 15px;
@@ -302,7 +282,7 @@ h2 {
     text-align: center;
 }
 
-.texto_parte_tres {
+.texto-parte-tres {
     font-size: 16px;
     padding: 10px;
     padding-left: 200px;
@@ -324,16 +304,16 @@ h2 {
     justify-content: space-between
 }
 
-.icons p {
-    margin-bottom: 24px;
-}
-
 .opcoes {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     width: 25%;
     margin-bottom: 62px;
+}
+
+.icons p {
+    margin-bottom: 24px;
 }
 
 .icon {
@@ -414,7 +394,7 @@ h2 {
     padding-bottom: 30px;
 }
 
-.seeall_button2 {
+.seeall-button2 {
     display: flex;
     align-items: center;
     justify-content: center;
