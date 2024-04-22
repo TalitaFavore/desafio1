@@ -282,7 +282,6 @@ form {
 .message-input {
     width: 98%;
     height: 200px;
-    margin-bottom: 50px;
     background-color: #302424;
     border-radius: 9px;
     border: 0.5px solid #CECECE;
@@ -296,7 +295,14 @@ form {
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
     align-self: end;
+    margin-top: 50px;
     border: 0.5px solid #CECECE;
+}
+
+.mensagem-erro {
+    color: #7f0000;
+    font-family: "Poppins-Regular";
+    font-size: 12px;
 }
 
 .parte-tres {
