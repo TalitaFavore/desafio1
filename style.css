@@ -617,3 +617,9 @@ hr {
     text-align: center;
     padding-bottom: 30px;
 }
+
+.mensagem-erro {
+    color: #7f0000;
+    font-family: "Poppins-Regular";
+    font-size: 12px;
+}
