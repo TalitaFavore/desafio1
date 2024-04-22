@@ -30,15 +30,24 @@ function newsletter() {
   message.value = "";
 }
 
+function validarEmail(email) {
+  const padraoEmail = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  return padraoEmail.test(email);
+}
 
 function email2() {
-  const email2 = document.getElementById("email2");
+  const email2 = document.getElementById("email2").value.trim();
 
   let dados = JSON.parse(localStorage.getItem("dadosEmail2"));
 
   if (dados == null) {
     localStorage.setItem("dadosEmail2", "[]");
     dados = [];
+  }
+
+  if (!validarEmail(email2)) {
+    document.getElementById('erroEmail2').innerText = 'Email inválido.';
+    return;
   }
 
   let auxRegistro = {
@@ -64,10 +73,7 @@ function validarLastName(lastName) {
   return padraoSobrenome.test(lastName);
 }
 
-function validarEmail(email) {
-  const padraoEmail = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  return padraoEmail.test(email);
-}
+
 
 function validarMessage(message) {
   return message.trim().length >= 10;
